@@ -136,7 +136,9 @@ img {
 .footer__email:hover,
 .footer__email:focus,
 .footer__phone-number:hover,
-.footer__phone-number:focus
+.footer__phone-number:focus,
+.buttons__item:hover,
+.buttons__item:focus
  {
   color: var(--main-color);
 }
@@ -323,17 +325,68 @@ img {
   font-weight: 500;
   line-height: 1.625;
   letter-spacing: 0.03em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  padding-left: 22px;
+  background-color: #F5F4FA;
+  border: none;
 }
-.portfolio_name {
+.button {
+    border: none;
+}
+.buttons__list{
+    display: flex;
+    padding-left: 510px;
+    padding-bottom: 56px;
+}
+.buttons__item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+
+.portfolio__name {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  
 }
 .portfolio__title {
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.03em;
+  padding-bottom: 20px;
+ 
+}
+.portfolio__card-wrapper{
+    
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    width: 322px;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-items: center;
+    }
+
+.portfolio__card:focus,
+.portfolio__card:hover{
+    border: 1px solid var(--main-color);
+}
+
+    .portfolio__card:not(:last-child) {
+        margin-right: 30px;
+      }    
+
+
+
+.portfolio__list
+{
+   padding-left: 215px;
+   padding-bottom: 94px;
+display: flex;
+flex-wrap: wrap;
+flex-container: wrap;
 }
