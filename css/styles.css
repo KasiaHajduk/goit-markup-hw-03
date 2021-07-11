@@ -283,19 +283,14 @@ img {
 .footer{
     background-color: #2F303A;
        padding-top: 60px;
+       padding-left: 215px;
 
    }
 
 
-.footer .navigation-logo{
-    
-    padding-left: 215px;
-  }
-
 .navigation-footer
 {
     display: block;
-    padding-left: 215px;
     padding-top: 20px;
     padding-bottom: 60px;
 }
